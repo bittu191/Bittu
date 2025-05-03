@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akniwa Coaching Classes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafb;
+      color: #1f2937;
+      position: relative;
+    }
+    .background-logo {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      opacity: 0.05;
+      z-index: 0;
+      pointer-events: none;
+      border-radius: 50%;
+      clip-path: circle(40%);
+    }
+    main, header, section, footer {
+      position: relative;
+      z-index: 1;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #1e3a8a;
+      color: white;
+    }
+    header img.logo {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #111827;
+      font-size: 1.75rem;
+      margin-bottom: 20px;
+    }
+    .courses, .testimonials, .why-us {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1e3a8a;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <img src="akniwa-logo.png" alt="Background Logo" class="background-logo">  <header>
+    <img src="akniwa-logo.png" alt="Akniwa Coaching Logo" class="logo">
+    <h1>Akniwa Coaching Classes</h1>
+    <p>Where Top Scores Begin — Join hundreds of achievers from Class 8 to 12</p>
+    <a href="#enroll" class="btn">Enroll Now</a>
+  </header>  <section>
+    <h2>About Us</h2>
+    <p>At <strong>Akniwa Coaching Classes</strong>, we believe every student has the potential to excel. Our personalized coaching, highly experienced faculty, and result-driven strategies ensure success in school exams, board results, and competitive entrance tests.</p>
+    <ul>
+      <li>Conceptual clarity</li>
+      <li>Regular assessments</li>
+      <li>Doubt-clearing sessions</li>
+      <li>Student-friendly teaching</li>
+    </ul>
+  </section>  <section>
+    <h2>Why Choose Us</h2>
+    <div class="why-us">
+      <div class="card">Experienced faculty with board and entrance exam expertise</div>
+      <div class="card">90%+ of students score distinctions in board exams</div>
+      <div class="card">Small batches for personalized attention</div>
+      <div class="card">Monthly parent updates and PTMs</div>
+      <div class="card">Weekend and evening batches available</div>
+    </div>
+  </section>  <section>
+    <h2>Our Courses</h2>
+    <p>We offer classes from 8th to 12th grade in core science subjects.</p>
+    <div class="courses">
+      <div class="card">
+        <h3>Chemistry</h3>
+        <p><strong>Instructor:</strong> Yuvraj Singh Yadav</p>
+        <p>Comprehensive theory and practical focus.</p>
+      </div>
+      <div class="card">
+        <h3>Mathematics</h3>
+        <p><strong>Instructor:</strong> Aziz Khan</p>
+        <p>Concept building and problem-solving.</p>
+      </div>
+      <div class="card">
+        <h3>Physics</h3>
+        <p><strong>Instructor:</strong> Vishwas Jain</p>
+        <p>Focus on fundamentals and numerical skills.</p>
+      </div>
+      <div class="card">
+        <h3>Biology</h3>
+        <p><strong>Instructor:</strong> Deepti Nigam</p>
+        <p>Detailed explanation with visual aids.</p>
+      </div>
+    </div>
+  </section>  <section>
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>"The best coaching experience ever. Thank you Akniwa for helping me achieve top scores!" – <strong>Riya Sharma, Class 11</strong></p>
+      </div>
+      <div class="card">
+        <p>"I never understood Physics before. Vishwas sir made it fun and easy to learn. Highly recommended!" – <strong>Aditya Verma, Class 12</strong></p>
+      </div>
+    </div>
+  </section>  <section id="enroll">
+    <h2>Contact & Enrollment</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message or Class Inquiry"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>  <footer>
+    <p>&copy; 2025 Akniwa Coaching Classes. All rights reserved.</p>
+  </footer>
+</body>
+</html>
